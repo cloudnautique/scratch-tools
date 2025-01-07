@@ -1,5 +1,6 @@
+Name: Claim Tool
 Credentials: auth as ins-api-demo.cloudnautique.comBearerAuth with "Bearer" as prefix and "GPTSCRIPT_INS_API_DEMO_CLOUDNAUTIQUE_COM_BEARERAUTH" as env and "https://ins-api-demo.cloudnautique.com/login" as loginUrl
-Share Tool: https://ins-api-demo.cloudnautique.com/swagger.json
+Tool: https://ins-api-demo.cloudnautique.com/swagger.json
 ---
 Name: auth
 Param: env: Name of the environment variable to set
