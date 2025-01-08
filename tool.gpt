@@ -10,7 +10,5 @@ Name: auth
 Param: env: Name of the environment variable to set
 Param: prefix: A word or phrase to prepend to the JWT value
 Param: loginUrl: The endpoint to use for login
-Credential: github.com/gptscript-ai/credential as insDemoUsername with "Please enter agent username" as message and "username" as field and USER as env
-Credential: github.com/gptscript-ai/credential as insDemoPassword with "Please enter agent password" as message and "password" as field and PASSWORD as env
 
 #!/usr/bin/env python ${GPTSCRIPT_TOOL_DIR}/login.py
